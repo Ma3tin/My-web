@@ -1,0 +1,48 @@
+$primary: #ffe01b;
+$secondary: #007c89;
+$white: #FFFFFF;
+
+.navigace {
+  width: 100%;
+  background-color: $primary;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.shopping {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+.navigace li {
+  width: 100px;
+  height: 25px;
+  background-color: $secondary;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  text-align: center;
+  color: $white;
+  font-family: "Arial Black", serif;
+}
