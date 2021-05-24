@@ -25,12 +25,19 @@
   list-style: none;
 }
 
+nav div li {
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
+
 .navigace li {
   width: 100px;
   height: 25px;
   background-color: #007c89;
   border: 2px black solid;
-  border-radius: 5px;
 }
 
 body {
@@ -41,6 +48,71 @@ li {
   text-align: center;
   color: #FFFFFF;
   font-family: "Arial Black", serif;
+}
+
+.mother {
+  width: 100%;
+  height: calc(100vh - 52px);
+  display: flex;
+  flex-direction: row;
+  border-top: 2px black solid;
+  color: #FFFFFF;
+  font-family: "Arial Black", serif;
+}
+
+.first {
+  width: 40%;
+  background-color: #ffe01b;
+}
+
+.second {
+  width: 20%;
+  background-color: #FFFFFF;
+}
+
+.third {
+  width: 40%;
+  background-color: #ffe01b;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  border: 2px solid black;
+  width: 50%;
+  margin: 25vh 25px;
+}
+
+.third table, th, td {
+  border: 2px black solid;
+  border-collapse: collapse;
+  margin: 10vh 25px;
+}
+
+.third table, th {
+  background-color: #FFFFFF;
+  color: black;
+  cursor: auto;
+}
+
+.third table, td {
+  background-color: #007c89;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.third table {
+  width: 75%;
+}
+
+.first h1 {
+  margin: 0 10px;
+}
+
+.first h2 {
+  margin: 10px 10px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
